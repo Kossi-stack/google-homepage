@@ -1,3 +1,124 @@
 body {
-    background-color: beige;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.menu{
+    height: 40px;
+    /* border: 1px solid red; */
+    font-size: 0.9em;
+   
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* border: 1px solid blue; */
+    margin: 0;
+    margin-right: 10px;
+
+}
+
+.menu a{
+    color: rgb(58, 57, 57);
+}
+.menu ul li{
+    margin: 5px;
+    
+}
+
+.menu img{
+   height: 25px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.main{
+    width: 70%;
+    /* border: 1px solid green; */
+    margin: 5% auto;
+    text-align: center;
+}
+.search-box{
+margin: 30px;
+display: flex;
+align-items: center;
+/* border: 1px solid green; */
+justify-content: center;
+}
+
+.search-box input{
+    border: 1px solid #ccc;
+    padding: 10px 35px;
+    font-size: 1.1em;
+    border-radius: 20px;
+    width: 50%;
+    outline: none;
+}
+.search-box img{
+    width: 25px;
+}
+.search-icon{
+    margin-right: -35px;
+    z-index: 1;
+}
+.microphone-icon{
+    margin-left: -35px;
+    z-index: 1;
+}
+
+.link-buttons{
+margin: 50px;
+    
+}
+.link-buttons a{
+    background-color: rgb(245, 241, 241);
+    text-decoration: none;
+    color:#000;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    border:1px solid transparent;
+    margin: 5px;
+}
+.link-buttons a:hover{
+    border:1px solid rgb(236, 233, 233)
+}
+
+.main p{
+    font-size: 0.8em;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243, 236, 236);
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul{
+    display: flex;
+  
+}
+
+footer ul a{
+    color: rgb(134, 130, 130);
+    font-size: 0.9em;
+    margin: 0 10px;
 }
